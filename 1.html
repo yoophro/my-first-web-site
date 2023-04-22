@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>WEB1 - SQL Injection</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1><a href="index.html">WEB</a></h1>
+    <ol>
+        <li><a href="1.html">SQL Injection</a></li>
+        <li><a href="2.html">XSS</a></li>
+        <li><a href="3.html">DDos</a></li>
+    </ol>
+    <h2>SQL Injection</h2>
+    <p><u>웹 클라이언트의 반환 메시지를 이용</u>하여 <strong>불법 인증 및 정보를 유출하는 공격.</strong>
+        웹 응용 프로그램에 강제로 구조화 조회 언어(SQL) 구문을
+        삽입하여 내부 데이터베이스(DB) 서버의 데이터를 유출 및 변조하고 관리자
+        인증을 우회할 수도 있다. 이 공격은 MS SQL 서버뿐만 아니라
+        모든 관계형 데이터베이스 관리 시스템(RDBMS)에서 가능하다.
+        <img src="coding.jpg" width="100%">
+    </p>
+    <p style="margin-top:45px;">SQL 인젝션(SQL 삽입, SQL 주입으로도 불린다)은 코드 인젝션의 한 기법으로 클라이언트의 입력값을 조작하여 서버의 데이터베이스를 공격할 수 있는
+        공격방식을 말한다. 주로 사용자가 입력한 데이터를 제대로
+        필터링, 이스케이핑하지 못했을 경우에 발생한다. 공격의 쉬운 난이도에 비해 파괴력이 어마어마하기 때문에 시큐어 코딩을 하는 개발자라면 가장 먼저 배우게 되는 내용이다. 이러한 injection 계열의
+        취약점들은
+        테스트를 통해 발견하기는 힘들지만 스캐닝툴이나 코드 검증절차를 거치면 보통 쉽게 발견되기 때문에 탐지하기는 쉬운 편이다. 보안회사 Imperva가 2012년에 발표한 보고서에 따르면 월평균 4회가량의
+        SQL 인젝션
+        공격이 일어난다고 한다. OWASP에서도 수년 동안 인젝션 기법이 보안 위협 1순위로 분류되었던 만큼 보안에 각별한 주의가 필요하다.</p>
+</body>
+
+</html>
